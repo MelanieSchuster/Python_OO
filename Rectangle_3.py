@@ -18,6 +18,9 @@ class Rectangle:
 r = Rectangle(5, 6)
 r.a = 10
 r.__a = 8
+#we add three different values to a
+print(r)
+r.set_a(11)
 print(r)
 print('__a in r is: ' + str(r.get_a()))
 print('r.__a in is: ' + str(r.__a))

@@ -10,9 +10,11 @@ class Rectangle:
         return self.a*self.b
 
     def __add__(self, other):
+        #+
         new_a = self.a + other.a
         new_b = self.b + other.b
         return Rectangle(new_a, new_b)
+    #creating a new rectangle
 
     def __str__(self):
         return "Rectangle[" + str(self.a) + " by " + str(self.b) + "] at " + str(hex(id(self)))
@@ -39,6 +41,7 @@ q = r2 < r1
 print('is r2 < r1: ' + str(q))
 
 r3 = r1 + r2
+#you can create your own content to the signs + and -
 s = Square()
 s.set_params(10, 10)
 

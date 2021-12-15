@@ -6,6 +6,12 @@ class Rectangle:
     def calc_surface(self):
         return self.a*self.b
 
+    def compare(self, other_r):
+        if self == other_r.a and self == other_r.b:
+            return True
+        else:
+            return False
+
     def __repr__(self):
         return 'Rectangle[{} by {} at {}]'.format(self.a, self.b, hex(id(self)))
     #def __str__(self):
@@ -28,6 +34,8 @@ print('R4: {}'.format(r4))
 from copy import copy
 r3 = copy(r2)
 print('R3: {}'.format(r3))
+print('R2 compare R3: {}'.format(r2.compare(r3)))
+print('R1 compare R4: {}'.format(r.compare(r4)))
 
 r_list = [r, r2, r3, r4]
 print('r_list:')
