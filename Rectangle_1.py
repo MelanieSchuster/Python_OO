@@ -36,6 +36,7 @@ r3 = copy(r2)
 print('R3: {}'.format(r3))
 print('R2 compare R3: {}'.format(r2.compare(r3)))
 print('R1 compare R4: {}'.format(r.compare(r4)))
+#can be a good question in the exam: why is == gleich True für das zweite und compare gleich beides False?
 
 r_list = [r, r2, r3, r4]
 print('r_list:')

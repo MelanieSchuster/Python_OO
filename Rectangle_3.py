@@ -9,6 +9,9 @@ class Rectangle:
     def calc_surface(self):
         return self.__a*self.b
 
+    def set_a(self, a):
+        self.__a = a
+
     def get_a(self):
         return self.__a
 
