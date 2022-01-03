@@ -12,8 +12,8 @@ class Shape:
 
     def get_min_par(self):
         return min(self._a, self.b)
-    #here we need a loop to go from the class to the super class
-    # as we have only two parameters, the if and else woulf be enough
+    # here we need a loop to go from the class to the super class
+    # as we have only two parameters, the if and else would be enough
     # with more parameters it would be good to store them in a list
 
     def __repr__(self):

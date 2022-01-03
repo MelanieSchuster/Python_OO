@@ -55,6 +55,7 @@ print(r2_list)
 # we have 3 pointers that point to the same. r and r2 point to the same list. r3 pointing to another.
 # each of the list has 4 pointers and two point to one rectangle and one can point to another
 from copy import deepcopy
+#deepcopy changes the parameters in the rectangle itself
 r4_list = deepcopy(r_list)
 r4_list[0].set_params(10, 15)
 print('r4_list:')

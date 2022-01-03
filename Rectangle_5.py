@@ -19,6 +19,8 @@ class Rectangle:
     def __repr__(self):
         return "Rectangle[" + str(self.__a) + " by " + str(self.b) + "] at " + str(hex(id(self)))
 
+    # what is the static method?
+
 
 def calculate_surface(par_a, par_b):
     return par_a*par_b

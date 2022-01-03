@@ -6,6 +6,7 @@ class Rectangle:
     #def __init__(self):
      #   self.a = 5
       #  self.b = 8
+    #ändert die Parameter die oben angegeben wurden
 
     def set_params(self, a, par_b):
         self.a = a
@@ -20,6 +21,7 @@ class Rectangle:
 #r = Rectangle(b=8)
 r = Rectangle()
 r.a = 50
+#changes the parameter a
 print(r.calc_surface())
 # destroy r
 #del r

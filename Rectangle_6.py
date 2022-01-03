@@ -48,7 +48,7 @@ class SingletonRectangle:
         # if it is in memory then it will be called otherwise it will be created
 if __name__ == '__main__':
     #if I run test, then this code will be run too if I don't put this line before
-sr = SingletonRectangle().get_rect()
+    sr = SingletonRectangle().get_rect()
 
 r = sr.get_rect()
 r2 = sr.get_rect()
