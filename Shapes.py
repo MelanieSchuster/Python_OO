@@ -91,3 +91,7 @@ for sh in shape_list:
     print(sh.__class__.__name__)
     sh.set_params(10, 15)
     print(sh.calc_surface())
+
+    # you can put all the different shapes into one list
+    # they inherit from shape -> all of them will a method set params and calc-surface
+    # run it for everyone on these shapes
