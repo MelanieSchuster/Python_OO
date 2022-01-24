@@ -48,8 +48,8 @@ s.set_params(10, 10)
 r4 = r1 + s
 print(r4)
 
-q = r1 > s
-print('is s < r1: ' + str(q))
+#q = r1 > s
+#print('is s < r1: ' + str(q))
 
 
 #print(r1)
