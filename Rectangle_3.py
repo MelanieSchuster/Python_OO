@@ -21,7 +21,7 @@ class Rectangle:
 r = Rectangle(5, 6)
 r.a = 10
 r.__a = 8
-#we add three different values to a
+#we add three different values to a but r.__a is not affected by this
 print(r)
 r.set_a(11)
 print(r)
